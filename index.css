@@ -27,7 +27,7 @@ body {
     position: fixed;
     top: 0;
     z-index: 10;
-    width: 100vw;
+    width: 100%;
     height: 50px;
     background-color: var(--main-color);
     display: flex;
@@ -108,6 +108,9 @@ main {
     margin-bottom: 20px;
 }
 
+.About-me-paragraph {
+    font-family: var(--subtext);
+}
 
 
 /* Skills */
@@ -144,4 +147,86 @@ main {
     font-family: var(--navFooter-font);
     color: var(--main-font-color);
     margin-bottom: 20px;
+}
+
+.my-journey-paragraph {
+    font-family: var(--subtext);
+}
+
+/* Contact section */
+
+.Contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    margin-top: 150px;
+
+}
+
+.contact-link {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 0 25px 50px -12px var(--main-font-color);
+    /* rgba(34, 34, 79, 0.25) */
+}
+
+.contact-link h1 {
+    font-size: 2.5rem;
+    font-family: var(--subtext);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-link p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-family: var(--navFooter-font);
+}
+
+.contact-info {
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: var(--secondary-color);
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 220px;
+    background-color: var(--secondary-color);
+    color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: var(--navFooter-font);
+}
+
+.copyright {
+    margin-top: auto;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.social-link {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    cursor: pointer;
+    display: flex;
+    margin-right: 20px;
+}
+
+.social-link svg {
+    margin-left: 10px;
 }
