@@ -153,13 +153,25 @@ main {
     font-family: var(--subtext);
 }
 
+/* Project Sect */
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.3rem;
+    font-family: var(--navFooter-font);
+    color: var(--main-font-color);
+}
+
+
 /* Contact section */
 
 .Contact {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 100px;
-    margin-top: 150px;
+    margin-top: 100px;
 
 }
 
@@ -171,8 +183,8 @@ main {
     align-items: center;
     justify-content: center;
     border-radius: 50px;
-    box-shadow: 0 25px 50px -12px var(--main-font-color);
-    /* rgba(34, 34, 79, 0.25) */
+    box-shadow: 0 25px 50px -12px rgba(34, 34, 79, 0.75);
+
 }
 
 .contact-link h1 {
@@ -186,6 +198,10 @@ main {
     font-size: 1.2rem;
     margin-bottom: 10px;
     font-family: var(--navFooter-font);
+}
+
+.contact-desc {
+    color: rgb(118, 118, 118);
 }
 
 .contact-info {
