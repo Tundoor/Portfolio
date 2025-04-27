@@ -1,0 +1,147 @@
+:root {
+    --bg-color: #fbf8ee;
+    --main-color: #dddaf4;
+    --swirl-color: #9fa8f0;
+    --secondary-color: #473c8b;
+    --main-font-color: #22224f;
+    --intro-font: "Lobster";
+    /*sans serif */
+    --navFooter-font: "Raleway";
+    --subtext: "Playfair Display";
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+/* Nav Link */
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 50px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: var(--intro-font);
+    color: var(--secondary-color);
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.nav-link:hover {
+    color: var(--swirl-color);
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 100px;
+}
+
+/* Intro */
+
+.intro {
+    background-color: var(--swirl-color);
+    text-align: center;
+}
+
+.intro-title {
+    font-size: 6rem;
+    font-family: var(--intro-font);
+    color: var(--main-font-color);
+}
+
+.intro-info {
+    margin-bottom: 40px;
+}
+
+.intro p {
+    font-family: var(--subtext);
+}
+
+.intro svg {
+    display: block;
+    /*So it takes entire width */
+}
+
+.svg-upper {
+    background-color: var(--bg-color);
+}
+
+/* About Me */
+
+.About-Me {
+    display: flex;
+    margin: 100px;
+}
+
+.about-me-image-div {
+    height: 500px;
+    width: 50%;
+    background-color: #22224f;
+}
+
+.About-me-article {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.About-me-header {
+    font-size: 4rem;
+    font-family: var(--navFooter-font);
+    color: var(--main-font-color);
+    margin-bottom: 20px;
+}
+
+
+
+/* Skills */
+
+.Skillset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.3rem;
+    font-family: var(--navFooter-font);
+    color: var(--main-font-color);
+}
+
+/* About Me */
+
+.my-journey {
+    display: flex;
+    margin: 100px;
+}
+
+.my-journey-article {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.my-journey-image-div {
+    height: 500px;
+    width: 50%;
+    background-color: #22224f;
+}
+
+.my-journey-header {
+    font-size: 4rem;
+    font-family: var(--navFooter-font);
+    color: var(--main-font-color);
+    margin-bottom: 20px;
+}
