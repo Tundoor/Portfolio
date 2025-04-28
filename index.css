@@ -87,18 +87,20 @@ main {
 
 .About-Me {
     display: flex;
-    margin: 100px;
+    align-items: center;
+    height: 800px;
+    margin: 20px 100px;
+
 }
 
-.about-me-image-div {
-    height: 500px;
-    width: 50%;
-    background-color: #22224f;
+.about-me-image {
+    height: 800px;
+    width: 800px;
+
 }
 
 .About-me-article {
-    width: 50%;
-    margin-left: 20px;
+    text-align: center;
 }
 
 .About-me-header {
@@ -119,27 +121,55 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 2.3rem;
-    font-family: var(--navFooter-font);
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.skills-article {
+    text-align: center;
+    margin: 30px 100px
+}
+
+.Skills-title {
     color: var(--main-font-color);
+    font-size: 5rem;
+    font-family: var(--navFooter-font);
+}
+
+.Skills-paragraph {
+    font-size: 1.2rem;
+}
+
+.dif-skills {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 60px;
+}
+
+.skills h3 {
+    text-align: center;
+    font-size: 1rem;
 }
 
 /* About Me */
 
 .my-journey {
     display: flex;
-    margin: 100px;
+    align-items: center;
+    height: 800px;
+    margin: 20px 100px;
+
 }
 
 .my-journey-article {
-    width: 50%;
-    margin-right: 20px;
+    text-align: center;
 }
 
-.my-journey-image-div {
-    height: 500px;
-    width: 50%;
-    background-color: #22224f;
+.my-journey-image {
+    margin-left: 20px;
+    height: 700px;
+    width: 700px;
 }
 
 .my-journey-header {
