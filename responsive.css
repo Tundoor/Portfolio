@@ -160,6 +160,8 @@
         width: 350px;
     }
 
+    /* Project */
+
     .portfolio-project {
         width: 300px;
         height: 150px;
@@ -175,6 +177,155 @@
     }
 }
 
-/* Mobile */
+/* Tablet */
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+
+    .nav-link {
+        font-size: 0.7rem;
+    }
+
+    .intro-title {
+        font-size: 4rem;
+        font-family: var(--intro-font);
+        color: var(--main-font-color);
+    }
+
+    .intro p {
+        font-family: var(--subtext);
+        font-size: 0.8rem;
+    }
+
+    /* About Me */
+    .About-Me {
+        margin: 40px 50px
+    }
+
+    .about-me-image {
+        width: 350px;
+        height: 350px;
+    }
+
+    .About-me-header {
+        font-size: 2.5rem;
+    }
+
+    .About-me-paragraph {
+        font-size: 0.7rem;
+    }
+
+    /* My skills */
+
+    .Skills-title {
+        font-size: 2.3rem;
+    }
+
+    .Skills-paragraph {
+        font-size: 0.8rem;
+    }
+
+
+    .skills svg {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .dif-skills {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+
+    .skills h3 {
+        font-size: 0.8rem;
+    }
+
+    /* About Me 2 */
+
+    .my-journey {
+        display: flex;
+        margin: 120px 50px;
+    }
+
+    .my-journey-header {
+        font-size: 2rem;
+    }
+
+    .my-journey-paragraph {
+        font-size: 0.7rem;
+        margin-right: 50px;
+        width: 300px;
+    }
+
+    .my-journey-image {
+        width: 300px;
+        height: 300px;
+    }
+
+    /* Project */
+    .portfolio-project {
+        width: 250px;
+        height: 125px;
+    }
+
+    .project-header {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .project-paragraph {
+        font-size: 0.7rem;
+        margin-bottom: 20px;
+    }
+
+    .project-div {
+        margin-right: 80px;
+    }
+
+    .project-article {
+        margin-top: 100px;
+        width: 250px;
+    }
+
+    .projectBtn {
+        font-size: 1.5rem;
+        width: 100px;
+        height: 50px;
+    }
+
+    /* Contact */
+
+    .contact-link {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    .contact-link h1 {
+        font-size: 1.5rem;
+    }
+
+    .contact-link p {
+        font-size: 1rem;
+    }
+
+    .contact-info {
+        font-size: 1.2rem;
+    }
+
+    /* footer */
+
+    .copyright {
+        font-size: 1rem;
+    }
+
+    .social-link {
+        margin-right: 5px;
+    }
+}
+
+/*Mobile */
+
+/*Small Mobile */
