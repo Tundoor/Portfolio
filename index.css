@@ -184,6 +184,7 @@ main {
 .my-journey-paragraph {
     font-family: var(--subtext);
     margin: 20px;
+
 }
 
 /* Project Sect */
@@ -195,6 +196,10 @@ main {
     align-items: center;
     font-family: var(--navFooter-font);
     color: var(--main-font-color);
+}
+
+.project-article-mobile {
+    display: none;
 }
 
 .main-project-div {
@@ -224,10 +229,6 @@ main {
     display: flex;
     flex-direction: column;
     margin-right: 150px;
-}
-
-.project-article-mobile {
-    display: block;
 }
 
 /* Image */

@@ -1,251 +1,66 @@
-@media screen and (min-width: 2000px) {
-    .about-me-image {
-        height: 850px;
-        width: 850px;
-    }
-
-    .my-journey-image {
-        margin-left: 20px;
-        height: 800px;
-        width: 800px;
-    }
-
+/* Small Mobile */
+@media screen and (min-width: 320px) and (max-width: 479px) {
     .nav-bar {
-        height: 70px;
-    }
-
-    .nav-link {
-        font-size: 2rem;
-    }
-
-    /* My Intro */
-
-    .intro-title {
-        font-size: 10rem;
-    }
-
-    .intro-info p {
-        font-size: 2rem;
-
-    }
-
-    /* My About */
-
-    .About-me-header {
-        margin-bottom: 50px;
-    }
-
-    .About-me-paragraph {
-        font-size: 1.5rem;
-        margin-bottom: 50px;
-    }
-
-    /* My Skills */
-
-    .Skills-paragraph {
-        font-size: 1.7rem;
-    }
-
-    .skills svg {
-        width: 150px;
-        height: 150px;
-    }
-
-    /* My journey */
-
-    .my-journey-header {
-        margin-bottom: 50px;
-    }
-
-    .my-journey-paragraph {
-        font-size: 1.5rem;
-        margin-bottom: 50px;
-    }
-
-    /* My project*/
-
-    .project-paragraph {
-        width: 700px;
-        font-size: 1.5rem;
-    }
-
-    .project-article {
-        margin-right: 200px;
-    }
-
-    .project {
-        margin-right: 150px;
-    }
-
-    .project-div {
-        margin-right: 200px;
-        width: 600px;
-    }
-
-    /* My contact */
-
-    .Contact {
-        margin-top: 200px;
-        margin-bottom: 200px;
-    }
-
-    .contact-link {
-        width: 400px;
-        height: 400px;
-    }
-}
-
-
-/* 1000 px and lower */
-
-@media screen and (min-width: 1025px) {
-
-    .About-Me {
-        margin: 40px 50px
-    }
-
-    .about-me-image {
-        width: 400px;
-    }
-
-    .About-me-header {
-        font-size: 3rem;
-    }
-
-    .About-me-paragraph {
-        font-size: 0.9rem;
-    }
-
-    /* skills */
-
-    .Skillset {
-        margin-top: 70px;
-        margin-bottom: 80px;
-    }
-
-    .Skills-title {
-        font-size: 3rem;
-    }
-
-    .Skills-paragraph {
-        font-size: 1rem;
-    }
-
-    .skills svg {
-        width: 80px;
-        height: 80px;
-
-    }
-
-    .dif-skills {
-        gap: 40px;
-    }
-
-    /* About Me */
-
-    .my-journey {
-        display: flex;
-        margin: 120px 50px;
-    }
-
-    .my-journey-header {
-        font-size: 3rem;
-    }
-
-    .my-journey-paragraph {
-        font-size: 0.9rem;
-    }
-
-    .my-journey-image {
-        width: 350px;
-    }
-
-    /* Project */
-
-    .portfolio-project {
-        width: 300px;
-        height: 150px;
-    }
-
-    .project-header {
-        font-size: 3rem;
-        margin-bottom: 30px;
-    }
-
-    .project-paragraph {
-        font-size: 1rem;
-    }
-}
-
-/* Tablet */
-
-@media screen and (min-width: 768px) {
-
-    .nav-link {
-        font-size: 0.7rem;
+        display: none;
     }
 
     .intro-title {
-        font-size: 4rem;
-        font-family: var(--intro-font);
-        color: var(--main-font-color);
+        font-size: 3rem;
     }
 
     .intro p {
-        font-family: var(--subtext);
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
 
     /* About Me */
     .About-Me {
-        margin: 40px 50px
+        flex-direction: column;
+        margin: 40px 50px;
     }
 
     .about-me-image {
-        width: 350px;
-        height: 350px;
+        width: 250px;
+        height: 250px;
     }
 
     .About-me-header {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .About-me-paragraph {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     /* My skills */
-
     .Skills-title {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     .Skills-paragraph {
-        font-size: 0.8rem;
+        font-size: 0.5rem;
+        width: 200px;
     }
-
 
     .skills svg {
         width: 50px;
         height: 50px;
-
     }
 
     .dif-skills {
         margin-top: 50px;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
     }
 
     .skills h3 {
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
 
     /* About Me 2 */
-
     .my-journey {
         display: flex;
+        justify-content: center;
         margin: 120px 50px;
     }
 
@@ -255,80 +70,125 @@
 
     .my-journey-paragraph {
         font-size: 0.7rem;
-        margin-right: 50px;
-        width: 300px;
+        width: 230px;
     }
 
     .my-journey-image {
-        width: 300px;
-        height: 300px;
+        display: none;
     }
 
     /* Project */
+    .main-project-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
     .portfolio-project {
-        width: 250px;
-        height: 125px;
+        width: 230px;
+        height: 120px;
+        margin: 10px;
     }
 
-    .project-header {
+    .project-article {
+        display: none;
+    }
+
+    .project-header-mobile {
+        color: #22224f;
         font-size: 2rem;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
-    .project-paragraph {
+    .project-article-mobile {
+        color: black;
         font-size: 0.7rem;
+        width: 230px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .project-paragraph-mobile {
         margin-bottom: 20px;
     }
 
     .project-div {
-        margin-right: 80px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
     }
 
-    .project-article {
-        margin-top: 100px;
-        width: 250px;
+    .project-2,
+    .project-4 {
+        margin-left: 0px;
     }
 
     .projectBtn {
         font-size: 1.5rem;
-        width: 100px;
+        width: 75px;
         height: 50px;
     }
 
     /* Contact */
-
     .contact-link {
-        width: 200px;
-        height: 200px;
-        border-radius: 20px;
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
     }
 
     .contact-link h1 {
-        font-size: 1.5rem;
+        font-size: 0.8rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
     .contact-link p {
-        font-size: 1rem;
+        font-size: 0.4rem;
+    }
+
+    .contact-link svg {
+        width: 18px;
+        height: 18px;
     }
 
     .contact-info {
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
 
     /* footer */
+    footer {
+        height: 80px;
+    }
 
     .copyright {
-        font-size: 1rem;
+        font-size: 0.5rem;
+    }
+
+    .social-link svg {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .social-links {
+        flex-direction: row;
     }
 
     .social-link {
-        margin-right: 5px;
+        margin-right: 10px;
+    }
+
+    .social-link svg {
+        width: 20px;
+    }
+
+    .social-link h3 {
+        display: none;
     }
 }
 
-/*Mobile */
-
-@media screen and (min-width: 480px) {
+/* Mobile */
+@media screen and (min-width: 480px) and (max-width: 767px) {
     .nav-bar {
         display: none;
     }
@@ -347,7 +207,7 @@
 
     /* About Me */
     .About-Me {
-        margin: 40px 50px
+        margin: 40px 50px;
     }
 
     .about-me-image {
@@ -364,7 +224,6 @@
     }
 
     /* My skills */
-
     .Skills-title {
         font-size: 2rem;
     }
@@ -373,11 +232,9 @@
         font-size: 0.5rem;
     }
 
-
     .skills svg {
         width: 50px;
         height: 50px;
-
     }
 
     .dif-skills {
@@ -392,7 +249,6 @@
     }
 
     /* About Me 2 */
-
     .my-journey {
         display: flex;
         margin: 120px 50px;
@@ -405,7 +261,6 @@
     .my-journey-paragraph {
         font-size: 0.7rem;
         margin-right: 0px;
-
     }
 
     .my-journey-image {
@@ -413,7 +268,6 @@
     }
 
     /* Project */
-
     .main-project-div {
         display: flex;
         flex-direction: column;
@@ -455,10 +309,7 @@
         margin-right: 0px;
     }
 
-    .project-2 {
-        margin-left: 0px;
-    }
-
+    .project-2,
     .project-4 {
         margin-left: 0px;
     }
@@ -470,7 +321,6 @@
     }
 
     /* Contact */
-
     .contact-link {
         width: 150px;
         height: 150px;
@@ -490,7 +340,6 @@
     }
 
     /* footer */
-
     footer {
         height: 80px;
     }
@@ -521,4 +370,300 @@
     }
 }
 
-/*Small Mobile */
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .nav-link {
+        font-size: 0.7rem;
+    }
+
+    .intro-title {
+        font-size: 4rem;
+        font-family: var(--intro-font);
+        color: var(--main-font-color);
+    }
+
+    .intro p {
+        font-family: var(--subtext);
+        font-size: 0.8rem;
+    }
+
+    /* About Me */
+    .About-Me {
+        margin: 40px 50px;
+    }
+
+    .about-me-image {
+        width: 350px;
+        height: 350px;
+    }
+
+    .About-me-header {
+        font-size: 2.5rem;
+    }
+
+    .About-me-paragraph {
+        font-size: 0.7rem;
+    }
+
+    /* My skills */
+    .Skills-title {
+        font-size: 2.3rem;
+    }
+
+    .Skills-paragraph {
+        font-size: 0.8rem;
+    }
+
+    .skills svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .dif-skills {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+
+    .skills h3 {
+        font-size: 0.8rem;
+    }
+
+    /* About Me 2 */
+    .my-journey {
+        display: flex;
+        margin: 120px 50px;
+    }
+
+    .my-journey-header {
+        font-size: 2rem;
+    }
+
+    .my-journey-paragraph {
+        font-size: 0.7rem;
+        margin-right: 50px;
+        /* width: 300px; */
+    }
+
+    .my-journey-image {
+        width: 300px;
+        height: 300px;
+    }
+
+    /* Project */
+    .portfolio-project {
+        width: 250px;
+        height: 125px;
+    }
+
+    .project-header {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .project-paragraph {
+        font-size: 0.7rem;
+        margin-bottom: 20px;
+    }
+
+    .project-div {
+        margin-right: 80px;
+    }
+
+    .project-article {
+        margin-top: 100px;
+        width: 250px;
+    }
+
+    .projectBtn {
+        font-size: 1.5rem;
+        width: 100px;
+        height: 50px;
+    }
+
+    /* Contact */
+    .contact-link {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    .contact-link h1 {
+        font-size: 1.5rem;
+    }
+
+    .contact-link p {
+        font-size: 1rem;
+    }
+
+    .contact-info {
+        font-size: 1.2rem;
+    }
+
+    /* footer */
+    .copyright {
+        font-size: 1rem;
+    }
+
+    .social-link {
+        margin-right: 5px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) and (max-width: 1999px) {
+    .About-Me {
+        margin: 40px 50px;
+    }
+
+    .about-me-image {
+        width: 400px;
+    }
+
+    .About-me-header {
+        font-size: 3rem;
+    }
+
+    .About-me-paragraph {
+        font-size: 0.9rem;
+    }
+
+    .Skillset {
+        margin-top: 70px;
+        margin-bottom: 80px;
+    }
+
+    .Skills-title {
+        font-size: 3rem;
+    }
+
+    .Skills-paragraph {
+        font-size: 1rem;
+    }
+
+    .skills svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .dif-skills {
+        gap: 40px;
+    }
+
+    .my-journey {
+        display: flex;
+        margin: 120px 50px;
+    }
+
+    .my-journey-header {
+        font-size: 3rem;
+    }
+
+    .my-journey-paragraph {
+        font-size: 0.9rem;
+    }
+
+    .my-journey-image {
+        width: 350px;
+    }
+
+    .portfolio-project {
+        width: 300px;
+        height: 150px;
+    }
+
+    .project-header {
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
+
+    .project-paragraph {
+        font-size: 1rem;
+    }
+}
+
+/* Large Screens */
+@media screen and (min-width: 2000px) {
+    .about-me-image {
+        height: 850px;
+        width: 850px;
+    }
+
+    .my-journey-image {
+        margin-left: 20px;
+        height: 800px;
+        width: 800px;
+    }
+
+    .nav-bar {
+        height: 70px;
+    }
+
+    .nav-link {
+        font-size: 2rem;
+    }
+
+    .intro-title {
+        font-size: 10rem;
+    }
+
+    .intro-info p {
+        font-size: 2rem;
+    }
+
+    .About-me-header {
+        margin-bottom: 50px;
+    }
+
+    .About-me-paragraph {
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+
+    .Skills-paragraph {
+        font-size: 1.7rem;
+    }
+
+    .skills svg {
+        width: 150px;
+        height: 150px;
+    }
+
+    .my-journey-header {
+        margin-bottom: 50px;
+    }
+
+    .my-journey-paragraph {
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+
+    .project-paragraph {
+        width: 700px;
+        font-size: 1.5rem;
+    }
+
+    .project-article {
+        margin-right: 200px;
+    }
+
+    .project {
+        margin-right: 150px;
+    }
+
+    .project-div {
+        margin-right: 200px;
+        width: 600px;
+    }
+
+    .Contact {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .contact-link {
+        width: 400px;
+        height: 400px;
+    }
+}
