@@ -88,14 +88,13 @@ main {
 .About-Me {
     display: flex;
     align-items: center;
-    height: 800px;
     margin: 20px 100px;
 
 }
 
 .about-me-image {
-    height: 800px;
-    width: 800px;
+    height: 500px;
+    width: 500px;
 
 }
 
@@ -157,8 +156,7 @@ main {
 .my-journey {
     display: flex;
     align-items: center;
-    height: 800px;
-    margin: 20px 100px;
+    margin: 100px 100px;
 
 }
 
@@ -168,8 +166,8 @@ main {
 
 .my-journey-image {
     margin-left: 20px;
-    height: 700px;
-    width: 700px;
+    height: 400px;
+    width: 400px;
 }
 
 .my-journey-header {
@@ -186,12 +184,116 @@ main {
 /* Project Sect */
 
 .project {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 2.3rem;
+
     font-family: var(--navFooter-font);
     color: var(--main-font-color);
+}
+
+.main-project-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.project-header {
+    font-size: 4rem;
+    margin-bottom: 80px;
+}
+
+.project-article {
+    font-size: 1.1rem;
+    width: 350px;
+}
+
+.project-paragraph {
+    margin-bottom: 50px;
+}
+
+.project-div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+
+/* Image */
+
+.portfolio-project {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 25px 50px -12px rgba(34, 34, 79);
+}
+
+.project-Overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio-project:hover .project-Overlay {
+    opacity: 1;
+}
+
+.project-text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-project {
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.project-2 {
+    margin-left: 70px;
+}
+
+.project-4 {
+    margin-left: 70px;
+}
+
+.projectBtn {
+    border-style: none;
+    border-radius: 10px;
+    color: var(--bg-color);
+    background-color: var(--secondary-color);
+    box-shadow: 0 25px 50px -12px rgba(34, 34, 79, 0.75);
+    font-size: 2rem;
+    font-family: var(--subtext);
+    font-weight: bolder;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.projectBtn:hover {
+    background-color: var(--swirl-color);
+    color: #22224f;
 }
 
 

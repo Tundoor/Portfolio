@@ -1,0 +1,12 @@
+@media screen and (min-width: 2000px) {
+    .about-me-image {
+        height: 800px;
+        width: 800px;
+    }
+
+    .my-journey-image {
+        margin-left: 20px;
+        height: 800px;
+        width: 800px;
+    }
+}
