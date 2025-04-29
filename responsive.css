@@ -1,7 +1,7 @@
 @media screen and (min-width: 2000px) {
     .about-me-image {
-        height: 800px;
-        width: 800px;
+        height: 850px;
+        width: 850px;
     }
 
     .my-journey-image {
@@ -9,4 +9,172 @@
         height: 800px;
         width: 800px;
     }
+
+    .nav-bar {
+        height: 70px;
+    }
+
+    .nav-link {
+        font-size: 2rem;
+    }
+
+    /* My Intro */
+
+    .intro-title {
+        font-size: 10rem;
+    }
+
+    .intro-info p {
+        font-size: 2rem;
+
+    }
+
+    /* My About */
+
+    .About-me-header {
+        margin-bottom: 50px;
+    }
+
+    .About-me-paragraph {
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+
+    /* My Skills */
+
+    .Skills-paragraph {
+        font-size: 1.7rem;
+    }
+
+    .skills svg {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* My journey */
+
+    .my-journey-header {
+        margin-bottom: 50px;
+    }
+
+    .my-journey-paragraph {
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+
+    /* My project*/
+
+    .project-paragraph {
+        width: 700px;
+        font-size: 1.5rem;
+    }
+
+    .project-article {
+        margin-right: 200px;
+    }
+
+    .project {
+        margin-right: 150px;
+    }
+
+    .project-div {
+        margin-right: 200px;
+        width: 600px;
+    }
+
+    /* My contact */
+
+    .Contact {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .contact-link {
+        width: 400px;
+        height: 400px;
+    }
 }
+
+
+/* 1000 px and lower */
+
+@media screen and (min-width: 1025px) {
+
+    .About-Me {
+        margin: 40px 50px
+    }
+
+    .about-me-image {
+        width: 400px;
+    }
+
+    .About-me-header {
+        font-size: 3rem;
+    }
+
+    .About-me-paragraph {
+        font-size: 0.9rem;
+    }
+
+    /* skills */
+
+    .Skillset {
+        margin-top: 70px;
+        margin-bottom: 80px;
+    }
+
+    .Skills-title {
+        font-size: 3rem;
+    }
+
+    .Skills-paragraph {
+        font-size: 1rem;
+    }
+
+    .skills svg {
+        width: 80px;
+        height: 80px;
+
+    }
+
+    .dif-skills {
+        gap: 40px;
+    }
+
+    /* About Me */
+
+    .my-journey {
+        display: flex;
+        margin: 120px 50px;
+    }
+
+    .my-journey-header {
+        font-size: 3rem;
+    }
+
+    .my-journey-paragraph {
+        font-size: 0.9rem;
+    }
+
+    .my-journey-image {
+        width: 350px;
+    }
+
+    .portfolio-project {
+        width: 300px;
+        height: 150px;
+    }
+
+    .project-header {
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
+
+    .project-paragraph {
+        font-size: 1rem;
+    }
+}
+
+/* Mobile */
+
+@media screen and (min-width: 768px) {}

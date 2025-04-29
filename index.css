@@ -50,7 +50,7 @@ body {
 }
 
 main {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 /* Intro */
@@ -67,6 +67,7 @@ main {
 }
 
 .intro-info {
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
@@ -111,6 +112,7 @@ main {
 
 .About-me-paragraph {
     font-family: var(--subtext);
+    margin-bottom: 20px;
 }
 
 
@@ -130,6 +132,7 @@ main {
 }
 
 .Skills-title {
+    margin-bottom: 30px;
     color: var(--main-font-color);
     font-size: 5rem;
     font-family: var(--navFooter-font);
@@ -156,7 +159,7 @@ main {
 .my-journey {
     display: flex;
     align-items: center;
-    margin: 100px 100px;
+    margin: 200px 100px;
 
 }
 
@@ -164,10 +167,11 @@ main {
     text-align: center;
 }
 
+
 .my-journey-image {
     margin-left: 20px;
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
 }
 
 .my-journey-header {
@@ -179,6 +183,7 @@ main {
 
 .my-journey-paragraph {
     font-family: var(--subtext);
+    margin: 20px;
 }
 
 /* Project Sect */
@@ -188,7 +193,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     font-family: var(--navFooter-font);
     color: var(--main-font-color);
 }
@@ -200,17 +204,20 @@ main {
 }
 
 .project-header {
+    color: #22224f;
     font-size: 4rem;
     margin-bottom: 80px;
 }
 
 .project-article {
+    color: black;
     font-size: 1.1rem;
     width: 350px;
+    text-align: center;
 }
 
 .project-paragraph {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .project-div {
