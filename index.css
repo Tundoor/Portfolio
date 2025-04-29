@@ -226,6 +226,10 @@ main {
     margin-right: 150px;
 }
 
+.project-article-mobile {
+    display: block;
+}
+
 /* Image */
 
 .portfolio-project {
