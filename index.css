@@ -385,6 +385,12 @@ footer {
     cursor: pointer;
     display: flex;
     margin-right: 20px;
+    text-decoration: none;
+    color: #dddaf4;
+}
+
+.social-link:hover {
+    color: #9fa8f0;
 }
 
 .social-link svg {
