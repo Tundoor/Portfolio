@@ -89,6 +89,7 @@ main {
 .About-Me {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 20px 100px;
 
 }
@@ -101,6 +102,8 @@ main {
 
 .About-me-article {
     text-align: center;
+    width: 500px;
+    margin-left: 100px;
 }
 
 .About-me-header {
@@ -159,12 +162,14 @@ main {
 .my-journey {
     display: flex;
     align-items: center;
-    margin: 200px 100px;
+    justify-content: center;
 
 }
 
 .my-journey-article {
     text-align: center;
+    width: 600px;
+    margin-right: 100px;
 }
 
 
@@ -219,6 +224,8 @@ main {
     font-size: 1.1rem;
     width: 350px;
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .project-paragraph {
@@ -236,7 +243,7 @@ main {
 .portfolio-project {
     position: relative;
     width: 400px;
-    height: 200px;
+    height: 300px;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 25px 50px -12px rgba(34, 34, 79);
