@@ -15,12 +15,18 @@
     /* About Me */
     .About-Me {
         flex-direction: column;
-        margin: 40px 50px;
+        margin: 40px 10px;
+
     }
 
     .about-me-image {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .About-me-article {
+        width: 300px;
+        margin: 0;
     }
 
     .About-me-header {
@@ -29,6 +35,7 @@
 
     .About-me-paragraph {
         font-size: 0.6rem;
+
     }
 
     /* My skills */
@@ -61,21 +68,31 @@
     .my-journey {
         display: flex;
         justify-content: center;
-        margin: 120px 50px;
+        margin-top: 120px;
+        margin-bottom: 120px;
+        padding: 10px;
     }
 
     .my-journey-header {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .my-journey-paragraph {
-        font-size: 0.7rem;
-        width: 230px;
+        font-size: 0.6rem;
+        width: 100%;
+        margin: 10px;
     }
 
     .my-journey-image {
         display: none;
     }
+
+    .my-journey-article {
+        text-align: center;
+        width: 280px;
+        margin-right: 10px;
+    }
+
 
     /* Project */
     .main-project-div {
@@ -86,30 +103,25 @@
     }
 
     .portfolio-project {
-        width: 230px;
-        height: 120px;
+        width: 280px;
+        height: 150px;
         margin: 10px;
     }
 
     .project-article {
-        display: none;
+        width: 280px;
+        font-size: 0.6rem;
+        text-align: center;
+        margin: 10px 10px;
     }
 
-    .project-header-mobile {
+    .project-header {
         color: #22224f;
         font-size: 2rem;
         margin-bottom: 20px;
     }
 
-    .project-article-mobile {
-        color: black;
-        font-size: 0.7rem;
-        width: 230px;
-        text-align: center;
-        margin-bottom: 50px;
-    }
-
-    .project-paragraph-mobile {
+    .project-paragraph {
         margin-bottom: 20px;
     }
 
@@ -119,10 +131,6 @@
         margin-right: 0px;
     }
 
-    .project-2,
-    .project-4 {
-        margin-left: 0px;
-    }
 
     .projectBtn {
         font-size: 1.5rem;
@@ -207,12 +215,18 @@
 
     /* About Me */
     .About-Me {
+        flex-direction: column;
         margin: 40px 50px;
     }
 
+    .About-me-article {
+        width: 400px;
+        margin-left: 0px;
+    }
+
     .about-me-image {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
     }
 
     .About-me-header {
@@ -220,7 +234,7 @@
     }
 
     .About-me-paragraph {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 
     /* My skills */
@@ -240,7 +254,7 @@
     .dif-skills {
         margin-top: 50px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 20px;
     }
 
@@ -267,31 +281,36 @@
         display: none;
     }
 
+
+    .my-journey-article {
+        text-align: center;
+        width: 400px;
+        margin-right: 10px;
+    }
+
     /* Project */
     .main-project-div {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-bottom: 50px;
+        width: 100%;
     }
 
     .portfolio-project {
         width: 200px;
         height: 100px;
-        margin: 10px;
+        margin: 0px;
     }
 
-    .project-article {
-        display: none;
-    }
 
-    .project-header-mobile {
+    .project-header {
         color: #22224f;
         font-size: 2rem;
         margin-bottom: 20px;
     }
 
-    .project-article-mobile {
+    .project-article {
         color: black;
         font-size: 0.7rem;
         width: 350px;
@@ -299,7 +318,7 @@
         margin-bottom: 50px;
     }
 
-    .project-paragraph-mobile {
+    .project-paragraph {
         margin-bottom: 20px;
     }
 
@@ -393,8 +412,8 @@
     }
 
     .about-me-image {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
     }
 
     .About-me-header {
@@ -403,6 +422,11 @@
 
     .About-me-paragraph {
         font-size: 0.7rem;
+    }
+
+
+    .About-me-article {
+        margin-left: 10px;
     }
 
     /* My skills */
@@ -443,18 +467,26 @@
     .my-journey-paragraph {
         font-size: 0.7rem;
         margin-right: 50px;
-        /* width: 300px; */
+    }
+
+    .my-journey-article {
+        margin-right: 10px;
     }
 
     .my-journey-image {
-        width: 300px;
-        height: 300px;
+        width: 280px;
+        height: 280px;
     }
 
     /* Project */
+
+    .main-project-div {
+        width: 100%;
+    }
+
     .portfolio-project {
-        width: 250px;
-        height: 125px;
+        width: 300px;
+        height: 150px;
     }
 
     .project-header {
@@ -468,12 +500,12 @@
     }
 
     .project-div {
-        margin-right: 80px;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .project-article {
         margin-top: 100px;
-        width: 250px;
+        width: 600px;
     }
 
     .projectBtn {

@@ -222,28 +222,29 @@ main {
 .project-article {
     color: black;
     font-size: 1.1rem;
-    width: 350px;
     text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: 10px 120px;
 }
 
 .project-paragraph {
+    font-family: var(--subtext);
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .project-div {
-    display: flex;
-    flex-direction: column;
-    margin-right: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 100px;
 }
 
 /* Image */
 
 .portfolio-project {
     position: relative;
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    height: 500px;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 25px 50px -12px rgba(34, 34, 79);
@@ -285,14 +286,6 @@ main {
     width: 100%;
     text-align: center;
     overflow: hidden;
-}
-
-.project-2 {
-    margin-left: 70px;
-}
-
-.project-4 {
-    margin-left: 70px;
 }
 
 .projectBtn {
